@@ -1,0 +1,14 @@
+#Given a list of numbers, Find the sum and average.
+list1=[4,5,6,7,8,9,10]
+count=0
+for i in list:
+    count+=i
+avg = count/len(list1)
+print("sum =", count)
+print("average=",avg)
+
+
+#create a program that takes a temperature in Celsius and converts it to kelvin
+c = float(input("Enter temperature in C-Scale: "))
+k = c + 273.15
+print("The temperature in K-Scale:",(k,2))
